@@ -14,7 +14,7 @@ with tf.Session() as sess:
     print( A ) 
     # Tensor("Const_42:0", shape=(), dtype=int64)
     
-    print( sess.run(A) ) 
+    print( sess.run(A) ); 
     # 10
 
     # 使用 sess.run() 才能取得 A 的值
